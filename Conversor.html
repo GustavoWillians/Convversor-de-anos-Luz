@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <title>CONVERSOR DE KM EM ANOS LUZ</title>
+</head>
+
+<body>
+
+    <Div id="CORPO">
+
+        <div id="Conversor">
+            <h1>Conversor de Ano-Luz em KM </h1>
+            <p> Este conversor lhe trara informações para que você possa visualizar melhor as distancias gigantescas do
+                espaço de uma forma mais simples</p>
+        </div>
+
+        <div id="Botão">
+            <input type="number" id="valor">
+            <button type="submite" onclick="Converter()">Converter</button>
+        </div>
+        <h2 id="valorConvertido"></h2>
+
+    </Div>
+</body>
+
+<script>
+
+
+    function Converter() {
+        var valorConverter = document.getElementById("valor");
+        var valor = valorConverter.value;
+        var valorKmNumerico = parseFloat(valor);
+        console.log(valor);
+
+
+        var valorKmNumerico = 9.46;
+        var equaçao = valorKmNumerico * valor;
+        console.log(equaçao);
+
+        var distanciaConvertida = document.getElementById("valorConvertido")
+        var valorConvertido = equaçao + " Trilhões de KM por segundo!";
+        distanciaConvertida.innerHTML = valorConvertido;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>

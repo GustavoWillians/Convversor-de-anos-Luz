@@ -1,0 +1,39 @@
+body{
+    background-image: url(/Image/Space.jpg);
+    background-position: cover;
+    background-size:auto;
+    
+}
+
+#CORPO{
+    text-align: center;
+    padding-top: 80px;
+    border-radius: 15px;
+    margin-top: 180px;
+    margin-left: 180px;
+    margin-right: 180px;
+    opacity: 100%;
+    border-width: medium;
+    border-style: solid;
+    border-color: #ffffff;
+
+    
+}
+
+#Conversor{
+
+    text-align:center;
+    color:#ffffff;
+    
+}
+
+#Botão{
+    padding: 85px;
+
+}
+
+#valorConvertido{
+    text-align: center;
+    color: #ffffff;
+    
+}
